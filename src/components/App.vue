@@ -55,7 +55,7 @@
             </ProjectCard>
             <HorizontalLine />
             <BigTitle>友情链接</BigTitle><br>
-            <OutLink href="https://fshrimp.fun">Templated from F-Shrimp</OutLink><br>
+            Templated from <OutLink href="https://fshrimp.fun">F-Shrimp</OutLink><br>
             <OutLink href="https://vuejs.org">Vue</OutLink>
             +
             <OutLink href="https://webpackjs.com">Webpack</OutLink>
