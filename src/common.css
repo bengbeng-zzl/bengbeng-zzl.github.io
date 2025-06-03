@@ -5,7 +5,8 @@
     border: none;
     outline: none;
     transition: .3s all ease-out;
-    color: white;
+    color: yellow;
+    -webkit-text-stroke: 1px purple;
 }
 
 body {

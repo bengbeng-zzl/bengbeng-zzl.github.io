@@ -25,14 +25,6 @@ jobs:
         npm i yarn -g
         yarn install
         yarn build
-        cd ./fscd-src
-        yarn install
-        yarn dist
-
-    - name: Copy resources
-      run: |
-        cp -r fs-context dist
-        cp -r scripteditor-2 dist
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.7

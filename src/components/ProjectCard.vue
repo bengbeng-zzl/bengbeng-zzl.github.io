@@ -1,6 +1,7 @@
 <template>
     <div class="project" @click="website ? window.open(website, '_blank') : null">
-        <img class="avatar" :src="image">
+        <img v-if="image" class="avatar" :src="image">
+        <span v-else class="avatar">不行😭没有封面图</span>
         <div class="description">
             <span class="title">{{ title }}</span><br>
             <div class="content">
@@ -45,6 +46,10 @@ defineProps({
 .avatar {
     width: 200px;
     height: 112.5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .description {

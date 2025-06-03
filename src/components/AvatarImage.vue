@@ -1,5 +1,5 @@
 <template>
-    <img src="avatar.png">
+    <img src="avatar.jpg">
 </template>
 <style scoped>
 img {
@@ -10,6 +10,5 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     object-fit: contain;
     background-color: rgba(255, 255, 255, 0.3);
-    padding: 5px;
 }
 </style>

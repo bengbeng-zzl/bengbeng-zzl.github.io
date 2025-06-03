@@ -1,7 +1,7 @@
 <template>
-    <LinkA class="link" :href="`https://e621.net/posts?tags=${url}`">
+    <LinkA class="link" :href="target === '#' ? undefined : `https://e621.net/posts?tags=${url}`">
         <template #prompt>
-            跳转的页面可能会引起你的不适，请谨慎斟酌
+            {{ target === '#' ? '不行😭E621搜不到' : '跳转的页面可能会引起你的不适，请谨慎斟酌' }}
         </template>
         <slot></slot>
     </LinkA>
